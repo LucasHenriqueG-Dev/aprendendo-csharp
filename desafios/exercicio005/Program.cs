@@ -1,6 +1,6 @@
 ﻿int  i, m,x, maior = 0, menor=0, iguais = 0, soma=0, posicao = 0;
 
-System.Console.WriteLine("digite um valor para  M");
+System.Console.WriteLine("digite um valor para M: ");
 m = int.Parse(Console.ReadLine());
 
 int [] v = new int [m];
@@ -28,7 +28,7 @@ for (i = 0; i < v.Length && soma < x; i++)
     soma += v[i];
     posicao++;
 }
-    System.Console.WriteLine($"os número {maior} é a qnt de núm maiores");
-    System.Console.WriteLine($"os número {menor} é a qnt de núm menores");
-    System.Console.WriteLine($"os número {iguais} é a qnt de núm iguais");
-    System.Console.WriteLine($"a qnt de possições para atingir x é: {posicao}");
+    System.Console.WriteLine($"quantidade de números maiores que x: {maior}");
+    System.Console.WriteLine($"quantidade de números menores que x: {menor}");
+    System.Console.WriteLine($"quantidade de números iguais a x: {iguais}");
+    System.Console.WriteLine($"a quantidade de posições para atingir x é: {posicao}");

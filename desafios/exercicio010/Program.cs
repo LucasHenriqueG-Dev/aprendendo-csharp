@@ -5,7 +5,7 @@ int [] dezenas;
 
 for(int i =0; i< vMegaSena.Length; i++)
 {
-    System.Console.WriteLine("digite os valores sorteados na mega sena");
+    System.Console.WriteLine("digite os valores sorteados na Mega-Sena: ");
     numeros_sorteados = int.Parse(Console.ReadLine());
     vMegaSena[i] = numeros_sorteados;
 
@@ -17,7 +17,7 @@ dezenas  = new int[qnt_dezenas_jogadas];
 
 for(int i =0; i<qnt_dezenas_jogadas; i++)
 {
-    System.Console.WriteLine("digite os numeoros apostados: ");
+    System.Console.WriteLine("digite os números apostados: ");
     dezenas_jogadas = int.Parse(Console.ReadLine());
     dezenas[i] = dezenas_jogadas; 
 }

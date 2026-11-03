@@ -1,11 +1,11 @@
 ﻿// a) maior e menor entre tres numeros
-System.Console.WriteLine("digite um numero inteiro: ");
+System.Console.WriteLine("digite um número inteiro: ");
 int num1 = int.Parse(Console.ReadLine());
 
-System.Console.WriteLine("digite o segundo numero inteiro: ");
+System.Console.WriteLine("digite o segundo número inteiro: ");
 int num2 = int.Parse(Console.ReadLine());
 
-System.Console.WriteLine("digite o terceiro numero inteiro: ");
+System.Console.WriteLine("digite o terceiro número inteiro: ");
 int num3 = int.Parse(Console.ReadLine());
 
 int maior = num1;
@@ -28,10 +28,10 @@ if (num3 < menor)
     menor = num3;
 }
 
-System.Console.WriteLine($"o maior numero é {maior} e o menor é {menor}");
+System.Console.WriteLine($"o maior número é {maior} e o menor é {menor}");
 
 // b) par ou impar
-System.Console.WriteLine("digite um numero para saber se é par ou impar: ");
+System.Console.WriteLine("digite um número para saber se é par ou ímpar: ");
 int num = int.Parse(Console.ReadLine());
 
 if (num % 2 == 0)
@@ -40,11 +40,11 @@ if (num % 2 == 0)
 }
 else
 {
-    System.Console.WriteLine($"{num} é impar");
+    System.Console.WriteLine($"{num} é ímpar");
 }
 
 // c) positivo, negativo ou zero
-System.Console.WriteLine("digite um numero para saber se é positivo, negativo ou zero: ");
+System.Console.WriteLine("digite um número para saber se é positivo, negativo ou zero: ");
 int valor = int.Parse(Console.ReadLine());
 
 if (valor > 0)
@@ -57,5 +57,5 @@ else if (valor < 0)
 }
 else
 {
-    System.Console.WriteLine("o numero é zero");
+    System.Console.WriteLine("o número é zero");
 }

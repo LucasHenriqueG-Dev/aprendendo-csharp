@@ -1,0 +1,53 @@
+# Exercício 012 - Controle de Consumo de Energia
+
+Assunto: vetores, validação de entrada e simulação  
+Status: concluído
+
+## Enunciado
+
+Uma empresa deseja acompanhar o consumo diário de energia elétrica (em kWh) de uma de suas unidades durante um período. Faça um programa em C# que:
+
+- a) leia a quantidade de dias analisados (mínimo 7 e máximo 30), repetindo a leitura enquanto o valor estiver fora do intervalo;
+- b) crie um vetor e armazene o consumo de cada dia, sem aceitar valores negativos;
+- c) apresente todos os consumos registrados, com o número do dia;
+- d) apresente o consumo total e o consumo médio diário;
+- e) apresente o maior consumo e o(s) dia(s) em que ocorreu;
+- f) apresente o menor consumo e o(s) dia(s) em que ocorreu;
+- g) informe quantos dias ficaram acima e quantos ficaram abaixo da média;
+- h) classifique cada dia percorrendo o vetor novamente:
+  - **Baixo consumo:** inferior a 80% da média
+  - **Consumo normal:** entre 80% e 120% da média
+  - **Alto consumo:** superior a 120% da média
+- i) leia um percentual de redução (maior que 0 e no máximo 50%) para os dias de alto consumo e simule a economia, mostrando:
+  - o novo consumo de cada dia;
+  - o novo consumo total;
+  - o total de kWh economizados;
+  - o percentual de redução obtido em relação ao consumo total original.
+
+**Restrições:** os valores originais não podem ser alterados (a simulação deve usar um segundo vetor) e não é permitido usar listas, coleções, matrizes ou estruturas equivalentes, apenas vetores.
+
+## O que pratiquei
+
+- Validação de entrada com `while` / `do while`
+- Preenchimento e percurso de vetores com `for`
+- Acumuladores (soma total) e cálculo de média
+- Busca de maior e menor valor, incluindo empates (mais de um dia)
+- Contadores (`cont++`) para dias acima e abaixo da média
+- Classificação com condicionais (`if / else if`) usando faixas percentuais
+- Uso de um segundo vetor para simulação, preservando o vetor original
+- Cálculo de percentual de economia
+
+## Como rodar
+
+```bash
+cd desafios/exercicio012
+dotnet run
+```
+
+## Solução
+
+[Program.cs](./Program.cs)
+
+---
+
+[voltar para o início](../../README.md)

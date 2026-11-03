@@ -17,6 +17,7 @@ Aqui eu guardo os exercícios de C# que faço na faculdade (ADS) e alguns que pe
 | 009 | [Ocorrências de X](./desafios/exercicio009/README.md) | Vetores e contadores | concluído |
 | 010 | [Mega-Sena](./desafios/exercicio010/README.md) | Comparação entre dois vetores | concluído |
 | 011 | [Busca em Vetor Preenchido](./desafios/exercicio011/README.md) | Vetores e contadores | concluído |
+| 012 | [Consumo de Energia](./desafios/exercicio012/README.md) | Vetores, validação e simulação | concluído |
 
 ## Organização
 

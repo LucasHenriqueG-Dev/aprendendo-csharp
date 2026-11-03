@@ -3,7 +3,7 @@
 System.Console.WriteLine("digite o valor da herança: ");
 double herança = double.Parse(Console.ReadLine());
 
-System.Console.WriteLine("digite a idade do priemro irmão: ");
+System.Console.WriteLine("digite a idade do primeiro irmão: ");
 int idade1 = int.Parse(Console.ReadLine());
 
 System.Console.WriteLine("digite a idade do segundo irmão: ");

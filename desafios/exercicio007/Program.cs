@@ -4,11 +4,11 @@ int [] numero;
 int [] idade;
 int [] votos;
 
-System.Console.WriteLine("digite o numero de candidatos entre 5 e 10 : ");
+System.Console.WriteLine("digite o número de candidatos entre 5 e 10: ");
 n = int.Parse(Console.ReadLine());
 
 while (n < 5 || n > 10){
-    System.Console.WriteLine("digite o numero de candidatos entre 5 e 10 : ");
+    System.Console.WriteLine("digite o número de candidatos entre 5 e 10: ");
     n = int.Parse(Console.ReadLine());
 }
 
@@ -21,7 +21,7 @@ votos = new int [n];
 for(int i = 0; i<n; i++){
     System.Console.WriteLine($"digite o nome do candidato {i+1}/{n}: ");
     nomes[i]= Console.ReadLine();
-    System.Console.WriteLine($"digite o numero do candidato {i+1}/{n}: ");
+    System.Console.WriteLine($"digite o número do candidato {i+1}/{n}: ");
     numero[i]= int.Parse(Console.ReadLine());
     System.Console.WriteLine($"digite a idade do candidato {i+1}/{n}: ");
     idade[i]= int.Parse(Console.ReadLine());
@@ -29,7 +29,7 @@ for(int i = 0; i<n; i++){
 
 // cada um dos n eleitores vota pelo numero do candidato (0 = branco)
 for(int i = 0; i < n ; i++){
-    System.Console.WriteLine($"eleitor {i+1}/{n}, digite o numero do seu candidato (0 para branco): ");
+    System.Console.WriteLine($"eleitor {i+1}/{n}, digite o número do seu candidato (0 para branco): ");
     voto = int.Parse(Console.ReadLine());
 
     if (voto == 0)
